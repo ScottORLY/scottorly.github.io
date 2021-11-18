@@ -2,7 +2,13 @@ import './tufte.module.css'
 import styles from './styles.module.css'
 
 const Link = ({ children, attributes: { href }}) => (
-    <a target="_blank" rel="noreferrer noopener" href={href}>
+    <a target='_blank' rel='noreferrer noopener' href={href}>
+        {children}
+     </a>
+)
+
+const LinkHere = ({ children, attributes: { href }}) => (
+    <a href={href}>
         {children}
      </a>
 )
@@ -74,13 +80,13 @@ const blog = (
         <section>
             <p>Blogs</p>
             <h2>
-                <Link href="https://scottorly.github.io/drive">DRIVE</Link>
+                <LinkHere href="https://scottorly.github.io/drive">DRIVE</LinkHere>
             </h2>
             <p>
                 iOS RxSwift UI Patterns
             </p>
             <h2>
-                    <Link href="https://scottorly.github.io/drive2combine">DRIVE II: COMBINE</Link>
+                <LinkHere href="https://scottorly.github.io/drive2combine">DRIVE II: COMBINE</LinkHere>
             </h2>
             <p>
                 <em>Coming Soon.</em>
