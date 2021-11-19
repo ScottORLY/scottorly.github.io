@@ -112,7 +112,10 @@ const blog = (
                 <blockquote>
                     <p>“When the cart doesn't move, do you goad the cart or the ox?”</p>
                     <footer>
-                    南嶽懐譲 Nanyue Huairang
+                    南嶽懐譲<br />
+                    <Link href='https://en.wikipedia.org/wiki/Nanyue_Huairang'>Nanyue Huairang</Link><br />
+                    釋道原, 景德傳燈錄<br />
+                    Shi DaoYuan, <Link href='https://en.wikipedia.org/wiki/The_Jingde_Record_of_the_Transmission_of_the_Lamp'><em>Jingde Record of the Transmission of the Lamp </em></Link>
                     </footer>
                 </blockquote>
             </div>    
