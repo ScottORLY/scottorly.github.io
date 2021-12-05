@@ -83,13 +83,13 @@ const blog = (
                 <LinkHere href="https://scottorly.github.io/drive">DRIVE</LinkHere>
             </h2>
             <p>
-                iOS RxSwift UI Patterns
+                RxSwift UI Patterns.
             </p>
             <h2>
                 <LinkHere href="https://scottorly.github.io/drive2combine">DRIVE II: COMBINE</LinkHere>
             </h2>
             <p>
-                <em>Coming Soon.</em>
+                Driving Combine.
             </p>
         </section>
 
@@ -104,6 +104,7 @@ const blog = (
             </p>
                 <h2><Link href="https://apps.apple.com/us/app/hallmark-digital-postage/id1450038754">HALLMARK DIGITAL POSTAGE</Link></h2>
             <p>
+                <h2><Link href="https://support.burnerapp.com/article/57-using-siri-for-calls-and-texts-ios-only">BURNER - SEND A MESSAGE WITH SIRI</Link></h2>
             </p>
         </section>   
 
@@ -112,10 +113,15 @@ const blog = (
                 <blockquote>
                     <p>“When the cart doesn't move, do you goad the cart or the ox?”</p>
                     <footer>
-                    南嶽懐譲<br />
-                    <Link href='https://en.wikipedia.org/wiki/Nanyue_Huairang'>Nanyue Huairang</Link><br />
-                    釋道原, 景德傳燈錄<br />
-                    Shi DaoYuan, <Link href='https://en.wikipedia.org/wiki/The_Jingde_Record_of_the_Transmission_of_the_Lamp'><em>Jingde Record of the Transmission of the Lamp </em></Link>
+                        <ruby>
+                            南嶽<rp>(</rp><rt>Nanyue</rt><rp>)</rp>
+                            懐譲<rp>(</rp><rt>Huairang</rt><rp>)</rp>
+                        </ruby>
+                    <br />
+                        <ruby>
+                            景德<rp>(</rp><rt>Jǐngdé</rt><rp>)</rp>
+                            傳燈錄<rp>(</rp><rt>Chuándēnglù</rt><rp>)</rp>
+                        </ruby>
                     </footer>
                 </blockquote>
             </div>    
