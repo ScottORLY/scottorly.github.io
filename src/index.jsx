@@ -111,17 +111,17 @@ const blog = (
         <section>
             <div className='epigraph'>
                 <blockquote>
-                    <p>“When the cart doesn't move, do you goad the cart or the ox?”</p>
+                    <p>如人駕車不行, 打車即是? 打牛即是?</p>
                     <footer>
-                        <ruby>
-                            南嶽<rp>(</rp><rt>Nanyue</rt><rp>)</rp>
-                            懐譲<rp>(</rp><rt>Huairang</rt><rp>)</rp>
-                        </ruby>
-                    <br />
-                        <ruby>
-                            景德<rp>(</rp><rt>Jǐngdé</rt><rp>)</rp>
-                            傳燈錄<rp>(</rp><rt>Chuándēnglù</rt><rp>)</rp>
-                        </ruby>
+                        南嶽懐譲
+                        <br />
+                        景德傳燈錄
+                    </footer>
+                    <p>Does the person driving a cart that is stuck hit the cart or the ox?</p>
+                    <footer>
+                        Nanyue Huairang
+                        <br />
+                        The Transmission of the Lamp
                     </footer>
                 </blockquote>
             </div>    
