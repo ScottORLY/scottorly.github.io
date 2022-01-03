@@ -117,7 +117,7 @@ const blog = (
                         <br />
                         景德傳燈錄
                     </footer>
-                    <p>Does the person driving a cart that is stuck hit the cart or the ox?</p>
+                    <p>When driving a cart that doesn't move is it correct to hit the cart or the ox?</p>
                     <footer>
                         Nanyue Huairang
                         <br />
