@@ -54,7 +54,7 @@ const blog = (
         </section>
 
         <section>
-            <p>Apps</p>
+        <p><code>/dev/apps</code></p>
             <h2>
                     <Link href="https://montecarloxo.com">MONTE CARLO XO</Link>
             </h2>
@@ -78,7 +78,7 @@ const blog = (
         </section>
 
         <section>
-            <p>Blogs</p>
+        <p><code>/dev/words</code></p>
             <h2>
                 <LinkHere href="https://scottorly.github.io/drive">DRIVE</LinkHere>
             </h2>
@@ -94,7 +94,7 @@ const blog = (
         </section>
 
         <section>
-            <p>Work</p>
+        <p><code>/dev/work</code></p>
                 <h2><Link href="https://apps.apple.com/us/app/get-help-app/id1319554390">GET HELP</Link></h2>
             <p>
                 
@@ -103,29 +103,40 @@ const blog = (
             <p>
             </p>
                 <h2><Link href="https://apps.apple.com/us/app/hallmark-digital-postage/id1450038754">HALLMARK DIGITAL POSTAGE</Link></h2>
-            <p>
-                <h2><Link href="https://support.burnerapp.com/article/57-using-siri-for-calls-and-texts-ios-only">BURNER - SEND A MESSAGE WITH SIRI</Link></h2>
-            </p>
         </section>   
-
-        <section>
             <div className='epigraph'>
+            <p><code>/dev/random</code></p>
                 <blockquote>
-                    <p>如人駕車不行, 打車即是? 打牛即是?</p>
+                    <p>
+                        於是緣門再思再審、寂然無言也。<br/>
+                        Fate's Disciple thought it over again to himself silently.
+                        </p>
+                        <p>
+                        入理先生乃問曰、汝何以不言。<br/>
+                        Dr. Enlightenment asked him, "Why don't you speak?"
+                        </p>
+                        <p>
+                        緣門答曰、我不見一法如微塵許而可對說。<br/>
+                        Fate's Disciple answered, "I do not perceive even an atom of a single teaching worth answering."
+                        </p>
+                        <p>
+                        爾時入理先生即語緣門曰、汝今似見真実理也。<br/>
+                        Dr. Enlightenment said to Fate's Disciple, "You now appear to perceive the true principle."
+                        </p>
+                        <p>
+                        緣門問曰、云何似見、非正見乎。<br/>
+                        Fate's Disciple asked him, "Why did you say 'appear to perceive' and not 'truly perceive'?"
+                        </p>
+                        <p>
+                        入理答曰、汝今所見、無有一法者、如彼外道。雖学隱形、而未能滅影亡跡。<br/>
+                        Dr. Enlightenment answered, "What you just witnessed, nihilism, is like an unbeliever. Although you study invisibility you cannot disappear or hide your footprints."
+                    </p>
                     <footer>
-                        南嶽懐譲
-                        <br />
-                        景德傳燈錄
-                    </footer>
-                    <p>When driving a cart that doesn't move is it correct to hit the cart or the ox?</p>
-                    <footer>
-                        Nanyue Huairang
-                        <br />
-                        The Transmission of the Lamp
+                    絕觀論 <br />
+                    Record of the Extinction of Insight
                     </footer>
                 </blockquote>
-            </div>    
-        </section> 
+            </div> 
     </article>
 )
 
