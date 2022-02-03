@@ -2,7 +2,7 @@
 const props = {
     description: "Scott Orlyck's website.",
     title: "Scott Orlyck",
-    image: "https://raw.githubusercontent.com/scottorly/scottorly.github.io/main/src/thumbnail.png",
+    image: "https://raw.githubusercontent.com/scottorly/scottorly.github.io/main/thumbnail.png",
     url: "https://scottorly.github.io",
     twitter: "@orlyck"
 }
