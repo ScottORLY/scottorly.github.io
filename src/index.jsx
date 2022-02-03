@@ -96,27 +96,21 @@ const blog = (
 
         <section>
         <p><code>/dev/work</code></p>
-
-                <h2>
-                    <Link href="https://apps.apple.com/us/app/get-help-app/id1319554390">GET HELP</Link>
-                </h2>
-            <p>
-                
-            </p>
+            <h2>
+                <Link href="https://apps.apple.com/us/app/get-help-app/id1319554390">GET HELP</Link>
+            </h2>
+            <p />
             <h2>
                 <Link href="https://apps.apple.com/us/app/hallmark-shoebox/id1210937098">HALLMARK SHOEBOX</Link>
             </h2>
-            <p>
-            </p>
+            <p />
             <h2>
                 <Link href="https://apps.apple.com/us/app/hallmark-digital-postage/id1450038754">HALLMARK DIGITAL POSTAGE</Link>
             </h2>
-            <p>
-            </p>
+            <p/>
             <h2>
                 <Link href="https://vimeo.com/85466100">REALM BLAZER</Link>
             </h2>
-
         </section>   
             <div className='epigraph'>
             <p><code>/dev/禅</code></p>

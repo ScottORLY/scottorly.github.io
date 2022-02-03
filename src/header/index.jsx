@@ -3,11 +3,13 @@ const props = {
     description: "Scott Orlyck's website.",
     title: "Scott Orlyck",
     image: "https://raw.githubusercontent.com/scottorly/scottorly.github.io/main/thumbnail.png",
+    favicon: "https://raw.githubusercontent.com/scottorly/scottorly.github.io/main/fav.png",
     url: "https://scottorly.github.io",
     twitter: "@orlyck"
 }
 
 export default <>
+    <link rel="icon" type="image/x-icon" href={props.favicon} />
     <meta name="Description" content={props.description}/>
     <meta name="twitter:title" content={props.title}/>
     <meta name="twitter:description" content={props.description}/>
