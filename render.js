@@ -33,6 +33,7 @@ const { exit } = require('process');
   });
 
   const html = await page.content();
+  const screenshot = await page.screenshot({ path: 'thumbnail.png' });
   await browser.close();
 
   fs.writeFile('./docs/index.html', html, () => {
