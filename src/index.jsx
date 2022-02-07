@@ -101,11 +101,11 @@ const blog = (
             </h2>
             <p />
             <h2>
-                <Link href="https://apps.apple.com/us/app/hallmark-shoebox/id1210937098">HALLMARK SHOEBOX</Link>
+                <Link href="https://appadvice.com/app/hallmark-shoebox/1210937098">HALLMARK SHOEBOX</Link>
             </h2>
             <p />
             <h2>
-                <Link href="https://apps.apple.com/us/app/hallmark-digital-postage/id1450038754">HALLMARK DIGITAL POSTAGE</Link>
+                <Link href="https://download.cnet.com/Hallmark-Digital-Postage/3000-2094_4-78463978.html">HALLMARK DIGITAL POSTAGE</Link>
             </h2>
             <p/>
             <h2>
