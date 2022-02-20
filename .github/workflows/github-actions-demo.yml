@@ -18,7 +18,8 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: rm docs/index.html
-    - run: node render.mjs
+    - run: npm run build
+    - run: npm run dist
     - run: git config user.name scott
     - run: git config user.email scott.orlyck@gmail.com
     - run: git add .

@@ -1,22 +1,21 @@
 import puppeteer from 'puppeteer'
 import path from 'path'
 import fs from 'fs'
-import { createServer } from 'vite'
+import { preview } from 'vite'
 import { exit } from 'process'
 
 (async () => {
-  const server = await createServer({
-    root: path.resolve(),
-    server: {
-      port: 3000
+  const server = await preview({
+    preview: {
+      port: 8080,
+      open: true
     }
   })
-  await server.listen()
   const browser = await puppeteer.launch({ headless: true })
   const page = await browser.newPage()
 
   try {
-    await page.goto('http://localhost:3000', { waitUntil: 'networkidle0' })
+    await page.goto('http://localhost:8080', { waitUntil: 'networkidle0' })
   } catch (err) {
     console.error(err)
     server.close()
@@ -33,7 +32,6 @@ import { exit } from 'process'
   await browser.close()
 
   fs.writeFile('./docs/index.html', html, () => {
-    server.close()
     exit()
   })
 })()
