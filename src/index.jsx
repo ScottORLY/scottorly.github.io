@@ -55,19 +55,15 @@ const blog = (
         </section>
 
         <section>
-        <p><code>/dev/apps</code></p>
+            <p><code>/dev/apps</code></p>
             <h2>
-                    <Link href="https://montecarloxo.com">MONTE CARLO XO</Link>
+                <Link href="https://montecarloxo.com">MONTE CARLO XO</Link>
             </h2>
             <p>
-                
-                {/* <MarginNote id='monte'>
-                    <img src="https://edwardtufte.github.io/tufte-css/img/rhino.png"/>
-                </MarginNote> */}
                 AR Tic-tac-toe.
             </p>
             <h2>
-                    <Link href="https://tarotarcana.app">TAROT ARCANA</Link>
+                <Link href="https://tarotarcana.app">TAROT ARCANA</Link>
             </h2>
             <p>
                 AR Divination Simulator.
@@ -81,16 +77,22 @@ const blog = (
         <section>
         <p><code>/dev/words</code></p>
             <h2>
-                <LinkHere href="https://scottorly.github.io/drive">DRIVE</LinkHere>
+                <LinkHere href="https://scottorly.github.io/taskmaster">TASKMASTER</LinkHere>
             </h2>
             <p>
-                RxSwift UI Patterns.
+                Swift Concurrency &amp; UIKit.
             </p>
             <h2>
                 <LinkHere href="https://scottorly.github.io/drive2combine">DRIVE II: COMBINE</LinkHere>
             </h2>
             <p>
                 Driving Combine.
+            </p>
+            <h2>
+                <LinkHere href="https://scottorly.github.io/drive">DRIVE</LinkHere>
+            </h2>
+            <p>
+                RxSwift UI Patterns.
             </p>
         </section>
 
@@ -112,39 +114,41 @@ const blog = (
                 <Link href="https://vimeo.com/85466100">REALM BLAZER</Link>
             </h2>
         </section>   
-            <div className='epigraph'>
-            <p><code>/dev/禅</code></p>
-                <blockquote>
-                    <p>
-                        於是緣門再思再審、寂然無言也。<br/>
-                        Fate's Disciple thought it over again to himself silently.
-                    </p>
-                    <p>
-                        入理先生乃問曰、汝何以不言。<br/>
-                        Dr. Enlightenment asked him, "Why don't you speak?"
-                    </p>
-                    <p>
-                        緣門答曰、我不見一法如微塵許而可對說。<br/>
-                        Fate's Disciple answered, "I do not perceive even an atom of a single teaching worth answering."
-                    </p>
-                    <p>
-                        爾時入理先生即語緣門曰、汝今似見真実理也。<br/>
-                        Dr. Enlightenment said to Fate's Disciple, "You now appear to perceive the true principle."
-                    </p>
-                    <p>
-                        緣門問曰、云何似見、非正見乎。<br/>
-                        Fate's Disciple asked him, "Why did you say 'appear to perceive' and not 'truly perceive'?"
-                    </p>
-                    <p>
-                        入理答曰、汝今所見、無有一法者、如彼外道。雖学隱形、而未能滅影亡跡。<br/>
-                        Dr. Enlightenment answered, "What you just witnessed, nihilism, is like a magician who studies invisibility but cannot hide their shadow or cover their tracks."
-                    </p>
-                    <footer>
-                    絕觀論 <br />
-                    Record of the Extinction of Insight
-                    </footer>
-                </blockquote>
-            </div> 
+        <div className='epigraph'>
+            <p>
+                <code>/dev/禅宗</code>
+            </p>
+            <blockquote>
+                <p>
+                    於是緣門再思再審、寂然無言也。<br/>
+                    Fate's Disciple thought it over again to himself silently.
+                </p>
+                <p>
+                    入理先生乃問曰、汝何以不言。<br/>
+                    Dr. Enlightenment asked him, "Why don't you speak?"
+                </p>
+                <p>
+                    緣門答曰、我不見一法如微塵許而可對說。<br/>
+                    Fate's Disciple answered, "I do not perceive even an atom of a single teaching worth answering."
+                </p>
+                <p>
+                    爾時入理先生即語緣門曰、汝今似見真実理也。<br/>
+                    Dr. Enlightenment said to Fate's Disciple, "You now appear to perceive the true principle."
+                </p>
+                <p>
+                    緣門問曰、云何似見、非正見乎。<br/>
+                    Fate's Disciple asked him, "Why did you say 'appear to perceive' and not 'truly perceive'?"
+                </p>
+                <p>
+                    入理答曰、汝今所見、無有一法者、如彼外道。雖学隱形、而未能滅影亡跡。<br/>
+                    Dr. Enlightenment answered, "What you just witnessed, nihilism, is like a magician who studies invisibility but cannot hide their shadow or cover their tracks."
+                </p>
+                <footer>
+                絕觀論 <br />
+                Record of the Extinction of Insight
+                </footer>
+            </blockquote>
+        </div> 
     </article>
 )
 document.head.appendChild(meta)
