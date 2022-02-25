@@ -50,7 +50,7 @@ const blog = (
 
         <section>
             <p>
-                <span className='newthought'>Some of the projects</span> I have built or helped build.
+                <span className='newthought'>Some of the projects I have worked on.</span>
             </p>
         </section>
 
@@ -141,7 +141,7 @@ const blog = (
                 </p>
                 <p>
                     入理答曰、汝今所見、無有一法者、如彼外道。雖学隱形、而未能滅影亡跡。<br/>
-                    Dr. Enlightenment answered, "What you just witnessed, nihilism, is like a magician who studies invisibility but cannot hide their shadow or cover their tracks."
+                    Enlightenment answered, "What you just witnessed, nihilism, is like a magician who studies invisibility but cannot hide their shadow or cover their tracks."
                 </p>
                 <footer>
                 絕觀論 <br />

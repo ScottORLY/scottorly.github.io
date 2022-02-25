@@ -15,23 +15,34 @@ import { exit } from 'process'
   const page = await browser.newPage()
 
   try {
-    await page.goto('http://localhost:8080', { waitUntil: 'networkidle0' })
+    await page.goto('http://localhost:8080/', { waitUntil: 'networkidle0' })
   } catch (err) {
     console.error(err)
     server.close()
     throw new Error('page.goto/waitForSelector timed out.')
   }
+
+
   await page.evaluate(() => {
-      document.querySelectorAll('script').forEach(element => {
-          element.remove()
-      })
+    const module = document.querySelector('link[rel="modulepreload"]')
+    if (module) {
+      module.remove()
+    }
+  })
+
+  await page.evaluate(() => {
+    document.querySelectorAll('script')
+    .forEach(e => e.remove())
+  })
+
+  await page.evaluate(() => {
   })
 
   const html = await page.content()
   await page.screenshot({ path: 'thumbnail.png' })
   await browser.close()
 
-  fs.writeFile('./docs/index.html', html, () => {
+  fs.writeFile('docs/index.html', html, () => {
     exit()
   })
 })()
