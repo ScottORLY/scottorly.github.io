@@ -120,33 +120,8 @@ const blog = (
             </p>
             <blockquote>
                 <p>
-                    於是緣門再思再審、寂然無言也。<br/>
-                    Fate's Disciple thought it over again to himself silently.
+                    念佛是誰
                 </p>
-                <p>
-                    入理先生乃問曰、汝何以不言。<br/>
-                    Dr. Enlightenment asked him, "Why don't you speak?"
-                </p>
-                <p>
-                    緣門答曰、我不見一法如微塵許而可對說。<br/>
-                    Fate's Disciple answered, "I do not perceive even an atom of a single teaching worth answering."
-                </p>
-                <p>
-                    爾時入理先生即語緣門曰、汝今似見真実理也。<br/>
-                    Dr. Enlightenment said to Fate's Disciple, "You now appear to perceive the true principle."
-                </p>
-                <p>
-                    緣門問曰、云何似見、非正見乎。<br/>
-                    Fate's Disciple asked him, "Why did you say 'appear to perceive' and not 'truly perceive'?"
-                </p>
-                <p>
-                    入理答曰、汝今所見、無有一法者、如彼外道。雖学隱形、而未能滅影亡跡。<br/>
-                    Enlightenment answered, "What you just witnessed, nihilism, is like a magician who studies invisibility but cannot hide their shadow or cover their tracks."
-                </p>
-                <footer>
-                絕觀論 <br />
-                Record of the Extinction of Insight
-                </footer>
             </blockquote>
         </div> 
     </article>
