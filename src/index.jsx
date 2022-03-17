@@ -120,7 +120,10 @@ const blog = (
             </p>
             <blockquote>
                 <p>
-                    念佛是誰
+                    令威儀齊整，然後結跏趺坐。
+                </p>
+                <p>
+                    <em>Command a solemn orderliness, then sit in the lotus posture.</em>
                 </p>
             </blockquote>
         </div> 
