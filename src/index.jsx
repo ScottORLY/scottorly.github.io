@@ -130,4 +130,7 @@ const blog = (
     </article>
 )
 document.head.appendChild(meta)
+document.head.appendChild( 
+    <script async defer data-domain="scottorly.github.io" src="https://plausible.io/js/plausible.js"></script>
+)
 document.body.appendChild(blog)
