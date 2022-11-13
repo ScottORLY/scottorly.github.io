@@ -120,10 +120,14 @@ const blog = (
             </p>
             <blockquote>
                 <p>
-                    令威儀齊整，然後結跏趺坐。
+                    一切善惡都莫思量，念起即覺，覺之即失，久久忘緣，自成一片。此坐禪之要術也。
                 </p>
                 <p>
-                    <em>Command a solemn orderliness, then sit in the lotus posture.</em>
+                    <em>
+                        All together don't think of good or evil, when a thought arises become aware of it, 
+                        awareness dissolves the thought, forgetful of conditions for a long time, mind naturally becomes unified. 
+                        This is the essential method of seated meditation.
+                    </em>
                 </p>
             </blockquote>
         </div> 
