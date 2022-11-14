@@ -99,10 +99,6 @@ const blog = (
         <section>
         <p><code>/dev/work</code></p>
             <h2>
-                <Link href="https://apps.apple.com/us/app/get-help-app/id1319554390">GET HELP</Link>
-            </h2>
-            <p />
-            <h2>
                 <Link href="https://appadvice.com/app/hallmark-shoebox/1210937098">HALLMARK SHOEBOX</Link>
             </h2>
             <p />
