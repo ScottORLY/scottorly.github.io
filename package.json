@@ -24,7 +24,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "rm -rf ./docs && vite build",
+    "build": "vite build",
     "serve": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dist": "node render.mjs && rm docs/**/*.js",
