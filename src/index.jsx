@@ -105,6 +105,9 @@ const blog = (
         <section>
             <p><code>/dev/work</code></p>
             <h2>
+                <Link href="https://apps.apple.com/us/app/weber-connect/id1480540695?platform=iphone">WEBER CONNECT</Link>
+            </h2>
+            <h2>
                 <Link href="https://appadvice.com/app/hallmark-shoebox/1210937098">HALLMARK SHOEBOX</Link>
             </h2>
             <p />
@@ -116,35 +119,6 @@ const blog = (
                 <Link href="https://vimeo.com/85466100">REALM BLAZER</Link>
             </h2>
         </section>   
-        <div className='epigraph'>
-            <p>
-                <code>/dev/禅宗</code>
-            </p>
-            <blockquote>
-                <p>
-                    學般若菩薩，先當起大悲心，發弘誓願，精脩三昧，誓度眾生，不為一身獨求解脫。爾乃放捨諸緣，休息萬事，身心一如，動靜無間
-                </p>
-                <p>
-                    <em>
-                        To study the Perfection of Wisdom, first give rise to a heart of great compassion, 
-                        make a solemn oath to cultivate the essense of samadhi for the benefit of all living things not just to liberate oneself.
-                        Let go of all causes, put to rest all worldly concerns, body and mind as one, no gap between movement and stillness.
-                    </em>
-                </p>
-                <p>
-                    一切善惡都莫思量，念起即覺，覺之即失，久久忘緣，自成一片。此坐禪之要術也。
-                </p>
-                <p>
-                    <em>
-                        All together don't think of good or evil, when a thought arises become aware of it, 
-                        awareness dissolves the thought, forgetful of conditions for a long time, mind naturally becomes unified. 
-                        This is the essential method of seated meditation.
-                    </em>
-                </p>
-                <p><em>坐禪儀, 禪苑清規, 長蘆宗賾 1103 CE</em></p>
-                <p><em>Rules for Seated Meditation, Rules of Purity in the Chan Monastery, Changlu Zongze 1103 CE</em></p>
-            </blockquote>
-        </div> 
     </article>
 )
 document.head.appendChild(meta)
