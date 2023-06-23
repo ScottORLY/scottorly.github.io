@@ -68,10 +68,6 @@ const blog = (
             <p>
                 AR Divination Simulator.
             </p>
-            <h2><Link href="https://coviz19.dev">COVIZ-19</Link></h2>
-            <p>
-                Animated choropleth visualization of US COVID-19 data from JHU.
-            </p>
         </section>
         <section>
             <p><code>/dev/diffusion</code></p>
