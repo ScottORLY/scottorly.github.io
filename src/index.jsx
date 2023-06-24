@@ -68,6 +68,9 @@ const blog = (
             <p>
                 AR Divination Simulator.
             </p>
+            <h2>
+                <Link href="https://scottorly.github.io/coviz19">COVIZ-19</Link>
+            </h2>
         </section>
         <section>
             <p><code>/dev/diffusion</code></p>
