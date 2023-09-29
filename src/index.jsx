@@ -56,17 +56,17 @@ const blog = (
 
         <section>
             <p><code>/dev/apps</code></p>
+             <h2>
+                <Link href="https://apps.apple.com/us/app/tarot-arcana/id1539747669?platform=iphone">TAROT RAVEN</Link>
+            </h2>
+            <p>
+                Tarot card readings from state-of-the-art on-device artificial intelligence.
+            </p>
             <h2>
                 <Link href="https://montecarloxo.com">MONTE CARLO XO</Link>
             </h2>
             <p>
-                AR Tic-tac-toe.
-            </p>
-            <h2>
-                <Link href="https://tarotarcana.app">TAROT ARCANA</Link>
-            </h2>
-            <p>
-                AR Divination Simulator.
+                AR Tic-tac-toe played against a monte carlo method AI.
             </p>
             <h2>
                 <Link href="https://scottorly.github.io/coviz19">COVIZ-19</Link>
