@@ -41,7 +41,7 @@ const blog = (
                 <MarginNote id='links'>
                     <Link href='https://apps.apple.com/us/developer/scott-orlyck/id1082162815'>App Store</Link> <br />
                     <Link href='https://github.com/scottorly'>GitHub</Link> <br />
-                    <Link href='https://huggingface.co/scottto'>Hugging Face<br />
+                    <Link href='https://huggingface.co/scottto'>Hugging Face</Link></><br />
                     <Link href='https://linkedin.com/in/scottorlyck'>LinkedIn</Link> <br />
                     <Link href='https://www.instagram.com/scottorlyck/'>Instagram</Link> <br />
                 </MarginNote>   
