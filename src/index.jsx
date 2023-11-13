@@ -74,13 +74,6 @@ const blog = (
             </h2>
         </section>
         <section>
-            <p><code>/dev/diffusion</code></p>
-            <h2>
-                <Link href="https://scottorly.github.io/diffusion">DIFFUSION</Link>
-            </h2>
-            <p />
-        </section>
-        <section>
         <p><code>/dev/words</code></p>
             <h2>
                 <LinkHere href="https://scottorly.github.io/taskmaster">TASKMASTER</LinkHere>
