@@ -44,6 +44,7 @@ const blog = (
                     <Link href='https://huggingface.co/scottto'>Hugging Face</Link> <br />
                     <Link href='https://linkedin.com/in/scottorlyck'>LinkedIn</Link> <br />
                     <Link href='https://www.instagram.com/scottorlyck/'>Instagram</Link> <br />
+                    <Link href='https://bsky.app/profile/scottorly.github.io'>BlueSky</Link> <br />
                 </MarginNote>   
                 <h1 className={styles.title}>Scott Orlyck</h1>
             </p>        
