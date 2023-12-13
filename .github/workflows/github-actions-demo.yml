@@ -22,6 +22,7 @@ jobs:
     - run: npm run dist
     - run: mkdir docs/.well-known
     - run: echo "did:plc:tjfcr277iebksvt55hbnueqf" > docs/.well-known/atproto-did
+    - run: echo "https://scottorly.github.io/.well-known" > docs/.well-known/index.md
     - run: git config user.name scott
     - run: git config user.email scott.orlyck@gmail.com
     - run: git add -A
