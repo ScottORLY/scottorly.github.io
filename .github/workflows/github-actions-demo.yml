@@ -22,7 +22,7 @@ jobs:
     - run: npm run dist
     - run: mkdir docs/.well-known
     - run: echo "did:plc:tjfcr277iebksvt55hbnueqf" > docs/.well-known/atproto-did
-    - run: echo "include: [\".well-known\"]" > docs/_config.yml
+    - run: cp: _config.yml docs/_config.yml
     - run: git config user.name scott
     - run: git config user.email scott.orlyck@gmail.com
     - run: git add -A
