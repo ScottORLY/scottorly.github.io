@@ -21,9 +21,9 @@ jobs:
     - run: npm run build
     - run: npm run dist
     - run: mkdir docs/.well-known
-    - run: echo "did:plc:tjfcr277iebksvt55hbnueqf" > .well-known/atproto-did
+    - run: echo "did:plc:tjfcr277iebksvt55hbnueqf" > docs/.well-known/atproto-did
     - run: git config user.name scott
     - run: git config user.email scott.orlyck@gmail.com
-    - run: git add .
+    - run: git add -A
     - run: git commit -m "Render, commit, and deploy to gh pages."
     - run: git push
