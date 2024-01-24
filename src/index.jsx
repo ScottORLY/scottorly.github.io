@@ -58,6 +58,12 @@ const blog = (
 
         <section>
             <p><code>/dev/apps</code></p>
+            <h2>
+                <Link href="https://apps.apple.com/us/app/ullama/id6468129438?platform=iphone">uLlama</Link>
+            </h2>
+            <p>
+                Your personal, private, secure, on-device AI assistant.
+            </p>
              <h2>
                 <Link href="https://apps.apple.com/us/app/tarot-arcana/id1539747669?platform=iphone">TAROT RAVEN</Link>
             </h2>
