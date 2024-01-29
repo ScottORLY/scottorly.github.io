@@ -59,7 +59,7 @@ const blog = (
         <section>
             <p><code>/dev/apps</code></p>
             <h2>
-                <Link href="https://apps.apple.com/us/app/ullama/id6468129438?platform=iphone">uLLAMA</Link>
+                <Link href="https://apps.apple.com/us/app/micro-llama/id6468129438">MICRO LLAMA</Link>
             </h2>
             <p>
                 Your personal, private, secure, on-device AI assistant.
