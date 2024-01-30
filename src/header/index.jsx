@@ -22,4 +22,5 @@ export default <>
     <meta property="og:description" content={props.description}/>
     <meta property="og:image" content={props.image}/>
     <meta property="og:image:secure" content={props.image}/>
+    <meta name="google-site-verification" content="lUY1nvzQq0C_4-rrW4zS6qy_ib3HK3MyfS-0Jpf_cvo" />
 </>
