@@ -105,7 +105,7 @@ const blog = (
         <section>
             <p><code>/dev/work</code></p>
             <h2>
-                <Link href="https://apps.apple.com/us/app/figs/id1503374453?platform=iphone">FIGS®</Link>
+                <Link href="https://apps.apple.com/us/app/figs/id1503374453?platform=iphone">FIGS&#174;</Link>
             </h2>
             <h2>
                 <Link href="https://apps.apple.com/us/app/weber-connect/id1480540695?platform=iphone">WEBER CONNECT</Link>
