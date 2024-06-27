@@ -1,6 +1,50 @@
-import './tufte.module.css'
 import meta from './header'
 import styles from './styles.module.css'
+import { select } from 'd3-selection'
+import { timeDay, timeHour, timeMinute } from 'd3-time'
+import 'd3-transition'
+import { range } from 'd3-array'
+
+const updateTime = () => {
+    const now = new Date()
+    select(`#hand-hours`).transition().attr('transform', `rotate(${(now - timeDay(now)) / 864e5 * 720})`)
+    select(`#hand-minutes`).transition().attr('transform', `rotate(${(now - timeHour(now)) / 36e5 * 360})`)
+    select(`#hand-seconds`).transition().attr('transform', `rotate(${(now - timeMinute(now)) / 6e4 * 360})`)
+}
+
+const Clock = () => (<>
+    <svg width="240" height="240" viewBox="50 50 500 500" style="max-width:100%;height:auto;">
+        <g transform="translate(300,300)">
+            <circle id="face" r="225" stroke-width="20" fill="none" stroke="lightgray"/>
+                {
+                    range(12).map(i => 
+                        <g id="tick-major" transform={`rotate(${i * 30})`}>
+                            <line y1="-203" y2="-153" stroke-width="14" />
+                        </g>
+                    )
+                }
+                {
+                    range(60).map(i => i % 5 ? (
+                        <g id="tick-minor" transform={`rotate(${i * 6})`}>
+                            <line y1="-203" y2="-188" stroke-width="4" />
+                        </g>) : (<></>)
+                    )
+                }
+            <g id="hand-hours">   
+                <path id="hours-path" d="M-13,47h26l-3,-186h-17z" />
+            </g>
+            <g id="hand-minutes" >
+                <path id='minutes-path' d="M-13,47h26l-3,-240h-17z" />
+            </g>
+            <g id="hand-seconds">
+                <line y1="65" y2="-138" stroke="red" stroke-width="4" />
+                <circle cy="-138" r="16" fill="red" />
+                <circle r="7.5" fill="red" />
+                <circle r="4.5" fill="none" stroke="brown" />
+            </g>
+        </g>
+    </svg>
+</>)
 
 const Link = ({ children, attributes: { href }}) => (
     <a target='_blank' rel='noreferrer noopener' href={href}>
@@ -38,7 +82,8 @@ const blog = (
     <article>
         <section>
             <p>
-                <MarginNote id='links'>
+                <MarginNote id='links'>  
+                <Clock /> <br />
                     <Link href='https://apps.apple.com/us/developer/scott-orlyck/id1082162815'>App Store</Link> <br />
                     <Link href='https://github.com/scottorly'>GitHub</Link> <br />
                     <Link href='https://huggingface.co/scottto'>Hugging Face</Link> <br />
@@ -54,12 +99,13 @@ const blog = (
             <p>
                 <span className='newthought'>Some of the projects I have worked on.</span>
             </p>
+           
         </section>
 
         <section>
             <p><code>/dev/apps</code></p>
             <h2>
-                <Link href="https://apps.apple.com/us/app/micro-llama/id6468129438">MICRO LLAMA</Link>
+                <Link href="https://apps.apple.com/us/app/micro-llm/id6468129438">MICRO LLM</Link>
             </h2>
             <p>
                 Your personal, private, secure, on-device AI assistant.
@@ -130,3 +176,4 @@ document.head.appendChild(
     <script async defer data-domain="scottorly.github.io" src="https://plausible.io/js/plausible.js"></script>
 )
 document.body.appendChild(blog)
+setInterval(updateTime, 60)

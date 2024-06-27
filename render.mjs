@@ -22,16 +22,16 @@ import { exit } from 'process'
     throw new Error('page.goto/waitForSelector timed out.')
   }
 
-  await page.evaluate(() => {
-    const module = document.querySelector('link[rel="modulepreload"]')
-    if (module) {
-      module.remove()
-    }
-    const script = document.querySelector('script[type="module"]')
-    if (script) {
-      script.remove()
-    }
-  })
+  // await page.evaluate(() => {
+  //   const module = document.querySelector('link[rel="modulepreload"]')
+  //   if (module) {
+  //     module.remove()
+  //   }
+  //   const script = document.querySelector('script[type="module"]')
+  //   if (script) {
+  //     script.remove()
+  //   }
+  // })
 
   const html = await page.content()
   await page.screenshot({ path: 'thumbnail.png' })

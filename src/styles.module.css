@@ -1,3 +1,35 @@
+@import url('./tufte.module.css');
+
 .title {
     @apply my-0
+}
+
+@media (prefers-color-scheme: light) {
+    #tick-major {
+        stroke: black;
+    }
+    #tick-minor {
+        stroke: black;
+    }
+    #hands-minutes {
+        stroke: black;
+    }
+    #hands-hours {
+        fill: black;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #tick-major {
+        stroke: white;
+    }
+    #tick-minor {
+        stroke: white;
+    }
+    #hours-path {
+        fill: white;
+    }
+    #minutes-path {
+        fill: white;
+    }
 }
