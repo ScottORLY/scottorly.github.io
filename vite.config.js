@@ -1,3 +1,4 @@
+
 export default {
   css: {
     modules: {
@@ -6,7 +7,19 @@ export default {
   },
   base: '/',
   build: {
-    outDir: 'docs'
+    outDir: 'docs',
+    rollupOptions: {
+      output: {
+        manualChunks: (id, p) => {
+          if (id.includes('node_modules')) {
+            return 'vendor';
+          }
+          if (id.includes('clock')) {
+            return 'clock';
+          }
+        }
+      }
+    }
   },
   esbuild: {
     jsxFactory: 'h',
