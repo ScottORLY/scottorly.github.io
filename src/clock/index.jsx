@@ -1,14 +1,4 @@
-import { select } from 'd3-selection'
-import { timeDay, timeHour, timeMinute } from 'd3-time'
-import 'd3-transition'
 import { range } from 'd3-array'
-
-const updateTime = () => {
-    const now = new Date()
-    select(`#hand-hours`).transition().attr('transform', `rotate(${(now - timeDay(now)) / 864e5 * 720})`)
-    select(`#hand-minutes`).transition().attr('transform', `rotate(${(now - timeHour(now)) / 36e5 * 360})`)
-    select(`#hand-seconds`).transition().attr('transform', `rotate(${(now - timeMinute(now)) / 6e4 * 360})`)
-}
 
 const Clock = () => (<>
     <svg width="240" height="240" viewBox="50 50 500 500" style="max-width:100%;height:auto;">
@@ -44,7 +34,4 @@ const Clock = () => (<>
     </svg>
 </>)
 
-window.addEventListener('load', () => {
-    setInterval(updateTime, 60);
-})
 export default Clock

@@ -14,8 +14,8 @@ export default {
           if (id.includes('node_modules')) {
             return 'vendor';
           }
-          if (id.includes('clock')) {
-            return 'clock';
+          if (id.includes('entry')) {
+            return 'entry';
           }
         }
       }

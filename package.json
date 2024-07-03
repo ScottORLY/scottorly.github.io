@@ -27,6 +27,7 @@
     "tufte-css": "^1.8.0"
   },
   "scripts": {
+    "build:ssr": "vite build --ssrManifest --outDir docs/assets",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
