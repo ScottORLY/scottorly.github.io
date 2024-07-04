@@ -33,3 +33,7 @@
         fill: white;
     }
 }
+
+.clock {
+    @apply w-24 h-24 inline-block pb-8
+}

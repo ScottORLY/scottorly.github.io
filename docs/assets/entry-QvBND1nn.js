@@ -1,0 +1,1 @@
+import{s as a,t as e,a as n,b as r}from"./vendor-Bj9EpLaq.js";const s=()=>{const t=new Date;a("#hand-hours").transition().attr("transform",`rotate(${(t-e(t))/864e5*720})`),a("#hand-minutes").transition().attr("transform",`rotate(${(t-n(t))/36e5*360})`),a("#hand-seconds").transition().attr("transform",`rotate(${(t-r(t))/6e4*360})`)};setInterval(s,60);

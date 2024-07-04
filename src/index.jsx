@@ -1,9 +1,5 @@
 import meta from './header'
 import styles from './styles.module.css'
-import { select } from 'd3-selection'
-import { timeDay, timeHour, timeMinute } from 'd3-time'
-import 'd3-transition'
-import { range } from 'd3-array'
 import Clock from './clock'
 
 const Link = ({ children, attributes: { href }}) => (
@@ -43,7 +39,7 @@ const blog = (
         <section>
             <p>
                 <MarginNote id='links'>  
-                <Clock /> <br />
+                    <span className={styles.clock}><Clock /></span> <br />
                     <Link href='https://apps.apple.com/us/developer/scott-orlyck/id1082162815'>App Store</Link> <br />
                     <Link href='https://github.com/scottorly'>GitHub</Link> <br />
                     <Link href='https://huggingface.co/scottto'>Hugging Face</Link> <br />
@@ -51,7 +47,7 @@ const blog = (
                     <Link href='https://www.instagram.com/scottorlyck/'>Instagram</Link> <br />
                     <Link href='https://bsky.app/profile/scottorly.github.io'>BlueSky</Link> <br />
                 </MarginNote>   
-                <h1 className={styles.title}>Scott Orlyck</h1>
+                <h1 className={styles.title}>Scott Orlyck </h1>
             </p>        
         </section>
 
@@ -88,12 +84,6 @@ const blog = (
         </section>
         <section>
         <p><code>/dev/words</code></p>
-            <h2>
-                <LinkHere href="https://scottorly.github.io/taskmaster">TASKMASTER</LinkHere>
-            </h2>
-            <p>
-                Swift Concurrency &amp; UIKit.
-            </p>
             <h2>
                 <LinkHere href="https://scottorly.github.io/drive2combine">DRIVE II: COMBINE</LinkHere>
             </h2>

@@ -9,6 +9,7 @@ const props = {
 }
 
 export default <>
+    <title>SCOTT ORLYCK</title>
     <link rel="icon" type="image/x-icon" href={props.favicon} />
     <meta name="Description" content={props.description}/>
     <meta name="twitter:title" content={props.title}/>

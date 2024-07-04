@@ -22,12 +22,16 @@ import { exit } from 'process'
     throw new Error('page.goto/waitForSelector timed out.')
   }
 
-  // await page.evaluate(() => {
-  //   const script = document.querySelector('script[type="module"]')
-  //   if (script) {
-  //     script.remove()
-  //   }
-  // })
+  await page.evaluate(() => {
+    const script = document.querySelector('script[type="module"]')
+    const link = document.querySelector('link[href*="entry"]')
+    if (link) {
+      if (script) {
+        script.setAttribute('src', link.getAttribute('href'))
+      }
+      link.remove()
+    }
+  })
 
   const html = await page.content()
   await page.screenshot({ path: 'thumbnail.png' })
