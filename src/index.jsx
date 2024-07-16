@@ -1,6 +1,7 @@
 import meta from './header'
 import styles from './styles.module.css'
 import Clock from './clock'
+import createMap from './map/index'
 
 const Link = ({ children, attributes: { href }}) => (
     <a target='_blank' rel='noreferrer noopener' href={href}>
@@ -34,12 +35,19 @@ const SideNote = ({ children, attributes: { id } }) => (
     </>
 )
 
-const blog = (
+const blog = (<>
+        <div id="worldClock">
+            <span className={styles.clockContainer}><Clock /></span> 
+            <svg viewBox="0 0 620 420" width='1160' height='960' style="max-width:100%;height:auto;" id='mapContainer'>
+                <g id='map'/>
+                <g id='tz'/>
+                <g id='graticle'/>
+            </svg>
+        </div>
     <article>
         <section>
             <p>
                 <MarginNote id='links'>  
-                    <span className={styles.clock}><Clock /></span> <br />
                     <Link href='https://apps.apple.com/us/developer/scott-orlyck/id1082162815'>App Store</Link> <br />
                     <Link href='https://github.com/scottorly'>GitHub</Link> <br />
                     <Link href='https://huggingface.co/scottto'>Hugging Face</Link> <br />
@@ -120,9 +128,11 @@ const blog = (
             </h2>
         </section>   
     </article>
+    </>
 )
 document.head.appendChild(meta)
 document.head.appendChild( 
     <script async defer data-domain="scottorly.github.io" src="https://plausible.io/js/plausible.js"></script>
 )
 document.body.appendChild(blog)
+createMap()
