@@ -21,11 +21,6 @@ const updateTime = () => {
     select(`#paris-hand-minutes`).transition().attr('transform', `rotate(${(paris - timeHour(paris)) / 36e5 * 360})`)
     select(`#paris-hand-seconds`).transition().attr('transform', `rotate(${(paris - timeMinute(paris)) / 6e4 * 360})`)
 
-    const berlin = new Date(new Date().toLocaleString('en-US', { timeZone: "Europe/Berlin"}))
-    select(`#berlin-hand-hours`).transition().attr('transform', `rotate(${(berlin - timeDay(berlin)) / 864e5 * 720})`)
-    select(`#berlin-hand-minutes`).transition().attr('transform', `rotate(${(berlin - timeHour(berlin)) / 36e5 * 360})`)
-    select(`#berlin-hand-seconds`).transition().attr('transform', `rotate(${(berlin - timeMinute(berlin)) / 6e4 * 360})`)
-
     const moscow = new Date(new Date().toLocaleString('en-US', { timeZone: "Europe/Moscow"}))
     select(`#moscow-hand-hours`).transition().attr('transform', `rotate(${(moscow - timeDay(moscow)) / 864e5 * 720})`)
     select(`#moscow-hand-minutes`).transition().attr('transform', `rotate(${(moscow - timeHour(moscow)) / 36e5 * 360})`)

@@ -42,37 +42,30 @@
 }
 
 .clockContainer {
-    @apply w-full px-16
+    @apply px-16
 }
 
 .clocks {
-    @apply flex flex-row w-full px-24
+    @apply flex flex-row w-full justify-center
 }
 
 .clock {
-    @apply w-24 h-24 flex flex-col justify-center text-center px-40
+    @apply w-20 h-20 flex flex-col justify-center text-center pl-14
 }
 
 .clock h4 {
     @apply text-center m-0
 }
 
-#mapContainer {
-    @apply w-full h-full overflow-hidden
+article {
+    overflow-x: hidden;
 }
-
-#worldClock {
-     @apply absolute flex flex-col justify-center items-center overflow-hidden
-}
-
-@media screen and (max-width: 1400px) {
-    #worldClock {
-        @apply absolute left-24 top-4 overflow-hidden my-0 py-0
-    }
-}
-
 .mapPath  {
     opacity: 0.6;
     fill: transparent;
     stroke-width: 0.1;
+}
+
+#worldClock {
+    @apply absolute w-[1400px] left-[-140px] overflow-x-hidden
 }

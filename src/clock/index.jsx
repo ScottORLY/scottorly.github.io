@@ -4,7 +4,6 @@ const locations = [
     "la",
     "ny",
     "paris",
-    "berlin",
     "moscow",
     "hk",
     "tokyo"
@@ -12,12 +11,10 @@ const locations = [
 
 const Clock = () => (
      <div className='clocks'>
-       
         {
-            locations.map(location =>
-                <div className='clock'>
-                    <svg viewBox="50 50 500 500" style="max-width:100%;height:auto;">
-                     
+            locations.map(location => {
+                return <div className='clock'>
+                    <svg viewBox="50 50 500 500">
                         <g transform="translate(300,300)">
                             <circle id="face" r="225" stroke-width="20" fill="none" stroke="lightgray"/>
                                 {
@@ -51,7 +48,7 @@ const Clock = () => (
 
                     <h4>{`${location}`}</h4>
                 </div>
-                )
+                })
         }
     </div>
 )
