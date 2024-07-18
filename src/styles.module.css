@@ -46,11 +46,11 @@
 }
 
 .clocks {
-    @apply flex flex-row w-full px-8
+    @apply flex flex-row w-full px-24
 }
 
 .clock {
-    @apply w-24 h-24 flex flex-col justify-center text-center px-16
+    @apply w-24 h-24 flex flex-col justify-center text-center px-40
 }
 
 .clock h4 {
