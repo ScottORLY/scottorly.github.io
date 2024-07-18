@@ -40,8 +40,7 @@ const blog = (<>
             <span className={styles.clockContainer}><Clock /></span> 
             <svg viewBox="0 0 620 420" width='1160' height='960' style="max-width:100%;height:auto;" id='mapContainer'>
                 <g id='map'/>
-                <g id='tz'/>
-                <g id='graticle'/>
+                <g id='graticules'/>
             </svg>
         </div>
     <article>

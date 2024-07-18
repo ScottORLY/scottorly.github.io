@@ -3,8 +3,8 @@ import { range } from 'd3-array'
 const locations = [
     "la",
     "ny",
-    "london",
     "paris",
+    "berlin",
     "moscow",
     "hk",
     "tokyo"
