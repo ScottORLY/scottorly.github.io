@@ -67,5 +67,5 @@ article {
 }
 
 #worldClock {
-    @apply absolute w-[1400px] left-[-140px] overflow-x-hidden
+    @apply absolute w-[1400px] left-[-140px] overflow-x-hidden z-[-999]
 }
