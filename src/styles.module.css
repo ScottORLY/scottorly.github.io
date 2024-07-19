@@ -67,5 +67,21 @@ article {
 }
 
 #worldClock {
-    @apply absolute w-[1400px] left-[-140px] overflow-x-hidden z-[-999]
+    @apply absolute w-[1240px] overflow-x-hidden z-[-999] top-0 left-0 block
+    
+}
+#worldClock svg {
+    overflow-x: hidden;
+}
+@media screen and (max-width: 600px) {
+    #worldClock {
+        @apply hidden
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    #worldClock {
+        @apply absolute top-0 left-1/4
+    }
 }
