@@ -7,7 +7,7 @@ import land from './land-10m.json'
 
 const createMap = () => {
     const lands = feature(land, land.objects.land)
-    const path = geoPath(geoTimes().fitExtent([[0, -0], [620, 420]], lands).scale(100))
+    const path = geoPath(geoTimes().fitExtent([[0, -60], [620, 420]], lands).scale(100))
     const graticuleGenerator = geoGraticule().step([10,10])
     const g = selectAll('#map')
     const graticules = selectAll('#graticules')

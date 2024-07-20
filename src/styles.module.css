@@ -46,7 +46,7 @@
 }
 
 .clocks {
-    @apply flex flex-row w-full justify-center
+    @apply flex flex-row w-full justify-center pt-4
 }
 
 .clock {
@@ -60,6 +60,7 @@
 article {
     overflow-x: hidden;
 }
+
 .mapPath  {
     opacity: 0.6;
     fill: transparent;
@@ -67,21 +68,27 @@ article {
 }
 
 #worldClock {
-    @apply absolute w-[1240px] overflow-x-hidden z-[-999] top-0 left-0 block
+    @apply absolute w-[1240px] overflow-x-hidden z-[-999] top-0 left-0 inline-block
     
 }
 #worldClock svg {
+    overflow-x: none;
+}
+
+@media screen and (min-width: 1440px) {
+    #worldClock {
+        @apply absolute top-0 left-0 overflow-x-hidden inline-block
+    }
+}
+
+#worldClock {
     overflow-x: hidden;
 }
-@media screen and (max-width: 600px) {
-    #worldClock {
-        @apply hidden
-    }
+
+body {
+    overflow-x: hidden;
 }
 
-
-@media screen and (min-width: 1400px) {
-    #worldClock {
-        @apply absolute top-0 left-1/4
-    }
+html {
+    overflow-x: hidden;
 }
