@@ -34,6 +34,7 @@
     "build:ssr": "vite build --ssrManifest --outDir docs/assets",
     "dev": "vite",
     "build": "vite build",
+    "deploy": "npm run build && npm run dist",
     "serve": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dist": "node render.mjs",

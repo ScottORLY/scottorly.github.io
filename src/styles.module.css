@@ -75,7 +75,7 @@ article {
     overflow-x: none;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1800px) {
     #worldClock {
         @apply absolute top-0 left-1/4 overflow-x-hidden inline-block
     }
