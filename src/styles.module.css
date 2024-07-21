@@ -50,7 +50,7 @@
 }
 
 .clock {
-    @apply w-20 h-20 flex flex-col justify-center text-center pl-14
+    @apply w-20 h-20 flex flex-col justify-center text-center pl-20
 }
 
 .clock h4 {
@@ -77,7 +77,7 @@ article {
 
 @media screen and (min-width: 1440px) {
     #worldClock {
-        @apply absolute top-0 left-0 overflow-x-hidden inline-block
+        @apply absolute top-0 left-1/4 overflow-x-hidden inline-block
     }
 }
 
